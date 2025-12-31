@@ -1,0 +1,10 @@
+const cars = ["saab", "volvo", "maruti"];
+console.log(cars);
+cars[0] = "opel";
+console.log(cars);
+const fruits = ["apple", "mango", "pineapple"];
+let length = fruits.length;
+console.log(length);
+console.log(fruits[0]);
+const person = ["John", "Doe", 46];
+console.log(person);
