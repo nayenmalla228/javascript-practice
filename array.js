@@ -3,6 +3,9 @@ const cars = ["saab", "volvo", "maruti"];
 cars[0] = "opel";
 // console.log(cars);
 const fruits = ["apple", "mango", "pineapple", "banana"];
+console.log(Array.isArray(fruits));
+fruits.shift(); //shift remove the first array element
+fruits.unshift("lemon");//adds element at the beginning
 // let length = fruits.length;
 // console.log(fruits.pop());
 console.log(fruits);
@@ -21,3 +24,7 @@ const person = ["John", "Doe", 46];
 // ];
 // const newArr = myArr.flat();
 // console.log(newArr);
+const myarray=[1, 2, 3, 4, 5, 6];
+const newarr=myarray.flatMap(x=>[x,x*10]);
+console.log (newarr);
+
