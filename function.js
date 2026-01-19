@@ -63,10 +63,11 @@ console.log(calculateDiscount(2000, 10));
 
 //price after discount
 function priceAfterDiscount(MP, DisPercent) {
-  return (priceAfterDiscount = MP - (DisPercent / 100) * MP);
+  return MP - (DisPercent / 100) * MP;
 }
-console.log(priceAfterDiscount(2000, 20));
-console.log(`The price of object after discount is ${priceAfterDiscount}`);
+console.log(
+  `The price of object after discount is ${priceAfterDiscount(2000, 20)}`
+);
 
 //using arrow function
 const priceAfterDiscounts = (MP, DisPER) => MP - (DisPER / 100) * MP;
